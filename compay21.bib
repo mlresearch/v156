@@ -1,0 +1,868 @@
+@Proceedings{COMPAY-2021,
+  booktitle =	 {Proceedings of the MICCAI Workshop on Computational
+                  Pathology},
+  name =	 {MICCAI Workshop on Computational Pathology},
+  shortname =	 {COMPAY 2021},
+  year =	 2021,
+  editor =	 {Manfredo Atzori and Nikolay Burlutskiy and Francesco Ciompi and Zhang Li and Fayyaz Minhas and Henning M\"uller and Tingying Peng and Nasir Rajpoot and Ben Torben-Nielsen and Jeroen van der Laak and Mitko Veta and Yinyin Yuan and Inti Zlobec},
+  volume =	 156,
+  start =	 {2021-09-27},
+  end =		 {2021-09-27},
+  published =	 {2021-09-16},
+  address =	 {Virtual},
+  conference_url ={http://compaysymposium.eu/},
+  conference_number =3
+}
+
+@InProceedings{AbbasiSureshjani21,
+  title =	 {Molecular Subtype Prediction for Breast Cancer Using
+                  H\&E Specialized Backbone},
+  author =	 {Abbasi-Sureshjani, Samaneh and Y{\"u}ce, An{\i}l and
+                  Sch{\"o}nenberger, Simon and Skujevskis, Maris and
+                  Schalles, Uwe and Gaire, Fabien and Korski,
+                  Konstanty },
+  pages =	 {1-9},
+  abstract =	 { Identifying the molecular markers to categorize
+                  breast cancer is one of the key steps in determining
+                  the prognosis and treatment strategy. The standard
+                  clinical practice is to do this analysis based on
+                  multiple immunohistochemistry (IHC) stainings for
+                  each biomarker, which is expensive and inconsistent
+                  when lacking resources. In this work, we
+                  investigated the predictiveness of morphological
+                  characteristics of Hematoxylin and Eosin (H\&E)
+                  stained tissues for molecular subtype analysis, as
+                  an initial step for direct treatment response
+                  prediction based on H\&E whole slide images
+                  (WSI). Transfer learning using backbones pre-trained
+                  on natural images is a common practice to deal with
+                  the challenge of lack of large and precisely
+                  annotated datasets. However, using pre-training on
+                  natural images is not optimal for clinical images.
+                  To deal with this challenge and leverage large pools
+                  of unlabeled data, we propose to use a specialized
+                  backbone pre-trained on H\&E WSI in a
+                  self-supervised setting, i.e.~without any
+                  labels. Our experiments show that this backbone is
+                  capable of learning discriminating morphological
+                  characteristics from H\&E images which are well
+                  predictive of the molecular subtypes in weakly
+                  supervised settings. Also, the network performs
+                  better in terms of generalization to unseen data
+                  from new scanner types, despite the relatively small
+                  size of the dataset used for pre-training the
+                  backbone.  }
+}
+
+@InProceedings{Alghamdi21,
+  title =	 {A Novel Cell Map Representation for Weakly
+                  Supervised Prediction of ER \& PR Status from H\&E
+                  WSIs},
+  author =	 {Hammam M. AlGhamdi\u{a} and Navid Alemi Koohbanani
+                  and Nasir Rajpoot and Shan E Ahmed Raza},
+  pages =	 {10-19},
+  abstract =	 {Digital pathology opens new pathways for
+                  computational algorithms to play a significant role
+                  in the prognosis, diagnosis, and analysis of
+                  cancer. However, handling large whole slide images
+                  (WSIs) is a vital challenge that these algorithms
+                  encounter. In this paper, we propose a novel
+                  technique that creates a compressed representation
+                  of histology images. This representation is composed
+                  of cellular maps and compresses the WSIs while
+                  keeping relevant information at hand including the
+                  spatial relationships between cells. The compression
+                  technique is used to predict the status of ER \& PR
+                  expressions from H\&E WSIs. Our results show that
+                  the proposed compression technique can improve the
+                  prediction performance by 11-26\%.}
+}
+
+@InProceedings{Bancher21,
+  title =	 {Improving Mask R-CNN for Nuclei Instance
+                  Segmentation in Hematoxylin \& Eosin-Stained
+                  Histological Images},
+  author =	 {Bancher, Benjamin and Mahbod, Amirreza and Ellinger,
+                  Isabella and Ecker, Rupert and Dorffner, Georg},
+  pages =	 {20-35},
+  abstract =	 {Digital pathology is an emerging topic in the
+                  analysis of pathologic tissue samples. It includes
+                  providing the tools towards more automated workflows
+                  to derive clinically relevant
+                  information. Digitization and storage of whole slide
+                  images have become commonplace and allow modern
+                  image analysis methods to be used. In recent years,
+                  computer-based segmentation of cell nuclei has
+                  gathered considerable attention in the development
+                  of highly specialized algorithms. Currently, most of
+                  these algorithms are based on performing semantic
+                  segmentation of all cell nuclei and separating
+                  overlapping instances in a post-processing
+                  step. Recently, instance-aware segmentation methods
+                  such as Mask R-CNN have been proposed to enable
+                  unified instance detection and segmentation, even in
+                  overlapping cases. In this work, we propose a
+                  modified Mask R-CNN-based approach by incorporating
+                  distance maps of instances and hematoxylin-stain
+                  intensities as extra input channels to the
+                  model. Moreover, we explore the impact of three
+                  well-known inference strategies, namely test-time
+                  augmentation, ensembling, and knowledge transfer
+                  through pre-training on the segmentation
+                  performance. We perform extensive ablation
+                  experiments across multiple runs to quantitatively
+                  define the most optimal inference strategy in the
+                  proposed Mask R-CNN algorithm. Our results show that
+                  average instance segmentation improvements of up to
+                  3.5\% and 4.1\% based on Aggregate Jaccard Index and
+                  Panoptic Quality score can be obtained,
+                  respectively, using the proposed techniques in
+                  comparison to a standard Mask R-CNN model. Our
+                  findings confirm the effectiveness of aggregating
+                  information at the network input stage and
+                  optimizing inference workflows using minimal
+                  effort. Implemented modifications and codes are
+                  publicly available through a GitHub repository
+                  under:
+                  https://github.com/bbanc/Improved-Mask-R-CNN-for-nuclei-segmentation}
+}
+
+@InProceedings{Bao21,
+  title =	 {Random Multi-Channel Image Synthesis for Multiplexed
+                  Immunofluorescence Imaging},
+  author =	 {Bao, S amd Tang, Y and Lee, HH and Gao, R and
+                  Chiron, S and Lyu, I and Coburn, LA and Wilson, KT
+                  and Roland, JR and Landman, BA and Huo, Y},
+  pages =	 {36-46},
+  abstract =	 {Multiplex immunofluorescence (MxIF) is an emerging
+                  imaging technique that produces the high sensitivity
+                  and specificity of single-cell mapping. With a tenet
+                  of ``seeing is believing'', MxIF enables iterative
+                  staining and imaging extensive antibodies, which
+                  provides comprehensive biomarkers to segment and
+                  group different cells on a single tissue
+                  section. However, considerable depletion of the
+                  scarce tissue is inevitable from extensive rounds of
+                  staining and bleaching (``missing
+                  tissue''). Moreover, the immunofluorescence (IF)
+                  imaging can globally fail for particular rounds
+                  (``missing stain''). In this work, we focus on the
+                  ``missing stain'' issue. It would be appealing to
+                  develop digital image synthesis approaches to
+                  restore missing stain images without losing more
+                  tissue physically. Herein, we aim to develop image
+                  synthesis approaches for eleven MxIF structural
+                  molecular markers (i.e., epithelial and stromal) on
+                  real samples. We propose a novel multi-channel
+                  high-resolution image synthesis approach, called
+                  pixN2N-HD, to tackle possible missing stain
+                  scenarios via a high-resolution generative
+                  adversarial network (GAN). Our contribution is
+                  three-fold: (1) a single deep network framework is
+                  proposed to tackle missing stain in MxIF; (2) the
+                  proposed ``N-to-N'' strategy reduces theoretical
+                  four years of computational time to 20 hours when
+                  covering all possible missing stains scenarios, with
+                  up to five missing stains (e.g., ``(N-1)-to-1'',
+                  ``(N-2)-to-2''); and (3) this work is the first
+                  comprehensive experimental study of investigating
+                  cross-stain synthesis in MxIF. Our results elucidate
+                  a promising direction of advancing MxIF imaging with
+                  deep image synthesis. }
+}
+
+@InProceedings{bozorgpour21,
+  title =	 {Multi-scale Regional Attention Deeplab3+: Multiple
+                  Myeloma Plasma Cells Segmentation in Microscopic
+                  Images},
+  author =	 {Afshin, Bozorgpour and Reza, Azad and Eman,
+                  Showkatian and Alaa, Sulaiman},
+  pages =	 {47-56},
+  abstract =	 {Multiple myeloma cancer is a type of blood cancer
+                  that happens when the growth of abnormal plasma
+                  cells becomes out of control in the bone
+                  marrow. There are various ways to diagnose multiple
+                  myeloma in bone marrow, such as a complete blood
+                  count test (CBC) or counting myeloma plasma cells in
+                  aspirate slide images using manual visualization or
+                  image processing techniques. In this work, an
+                  automatic deep learning method for detecting and
+                  segmentation multiple myeloma plasma cells has been
+                  explored. To this end, a two- stage deep learning
+                  method is designed. In the first stage, the nucleus
+                  detection network is utilized to extract each
+                  instance of a cell of interest. The extracted
+                  instance is then fed to the multi-scale function to
+                  generate a multi-scale representation. The objective
+                  of the multi-scale function is to capture the shape
+                  variation and reduce the effect of object scale on
+                  the cytoplasm segmentation network. The generated
+                  scales are then fed into a pyramid of cytoplasm
+                  networks to learn the segmentation map in various
+                  scales. On top of the cytoplasm segmentation
+                  network, we included a scale aggregation function to
+                  refine and generate a final prediction. The proposed
+                  approach has been evaluated on the SegPC2021 grand
+                  challenge and ranked second on the final test phase
+                  among all teams.},
+  software =	 {https://github.com/bmdeep/SegPC2021},
+}
+
+@InProceedings{butke21,
+  title =	 {End-to-end Multiple Instance Learning for
+                  Whole-Slide Cytopathology of Urothelial Carcinoma},
+  author =	 {Butke, Joshua and Frick, Tatjana and Roghmann,
+                  Florian and El-Mashtoly, Samir F and Gerwert, Klaus
+                  and Mosig, Axel},
+  pages =	 {57-68},
+  abstract =	 {As a non-invasive approach, cytopathology of urine
+                  sediment is a highly promising approach to
+                  diagnosing urothelial carcinoma. However,
+                  computational assessment of the cytopathological
+                  status of a sample raises the challenge of
+                  identifying few cancerous cells among thousands of
+                  cells in a microscopic whole-slide image. To address
+                  this challenge, we propose an end-to-end trainable
+                  multiple instance learning approach that combines
+                  the attention mechanism and hard negative mining to
+                  classify hematoxylin and eosin stained patient-level
+                  whole-slide images of urine sediment cells. The
+                  singular cells are extracted by a simple foreground
+                  detection algorithm. With feature embeddings
+                  computed for each image patch in a bag by a
+                  convolutional neural network, the attention
+                  mechanism serves as the pooling operator, enabling a
+                  bag-level prediction while still giving an
+                  interpretable score for each image patch. This
+                  enables the identification of key instances and
+                  potential regions of interest that trigger a
+                  patient-level decision. Our results show that the
+                  proposed system can differentiate between normal and
+                  cancerous urothelial cells, thus enabling the
+                  non-invasive diagnosis of urothelial carcinoma in
+                  patients using urine sediment analysis.},
+  software =	 {https://github.com/butkej/MIL4Cyto}
+}
+
+@InProceedings{ganz21,
+  title =	 {Automatic and explainable grading of meningiomas
+                  from histopathology images},
+  author =	 {Ganz, Jonathan and Kirsch, Tobias and Hoffmann,
+                  Lucas and Bertram, Christof A. and Hoffmann,
+                  Christoph and Maier, Andreas and Breininger,
+                  Katharina and Bl\"umcke, Ingmar and Jabari, Samir
+                  and Aubreville, Marc},
+  pages =	 {69-80},
+  abstract =	 {Meningioma is one of the most prevalent brain tumors
+                  in adults. To determine its malignancy, it is graded
+                  by a pathologist into three grades according to WHO
+                  standards. This grade plays a decisive role in
+                  treatment, and yet may be subject to inter-rater
+                  discordance. In this work, we present and compare
+                  three approaches towards fully automatic meningioma
+                  grading from histology whole slide images. All
+                  approaches are following a two-stage paradigm, where
+                  we first identify a region of interest based on the
+                  detection of mitotic figures in the slide using a
+                  state-of-the-art object detection deep learning
+                  network. This region of highest mitotic rate is
+                  considered characteristic for biological tumor
+                  behavior. In the second stage, we calculate a score
+                  corresponding to tumor malignancy based on
+                  information contained in this region using three
+                  different settings. In a first approach, image
+                  patches are sampled from this region and regression
+                  is based on morphological features encoded by a
+                  ResNet-based network. We compare this to learning a
+                  logistic regression from the determined mitotic
+                  count, an approach which is easily traceable and
+                  explainable. Lastly, we combine both approaches in a
+                  single network. We trained the pipeline on 951
+                  slides from 341 patients and evaluated them on a
+                  separate set of 141 slides from 43 patients. All
+                  approaches yield a high correlation to the WHO
+                  grade. The logistic regression and the combined
+                  approach had the best results in our experiments,
+                  yielding correct predictions in $32$ and $33$ of all
+                  cases, respectively, with the image-based approach
+                  only predicting $25$ cases correctly. Spearman's
+                  correlation was $0.7163$, $0.7926$ and $0.7900$
+                  respectively. It might be counter-intuitive at first
+                  that morphological features provided by the image
+                  patches do not improve model performance. Yet, this
+                  mirrors the criteria of the grading scheme, where
+                  mitotic count is the only unequivocal parameter.},
+}
+
+@InProceedings{GhaffariLaleh21,
+  title =	 {Deep Learning for interpretable end-to-end survival
+                  (E-ESurv) prediction in gastrointestinal cancer
+                  histopathology},
+  author =	 {Ghaffari Laleh, Narmin and Echle, Amelie and Muti,
+                  Hannah Sophie and Hewitt, Katherine Jane and Schulz
+                  Volkmar and Kather, Jakob Nikolas},
+  pages =	 {81-93},
+  software =	 {https://github.com/KatherLab/Survival},
+  abstract =	 {This paper demonstrates and validates EE-Surv, a
+                  powerful yet algorithmically simple method to
+                  predict survival directly from whole slide images
+                  which we validate in colorectal and gastric cancer,
+                  two clinically relevant and markedly different tumor
+                  types.}
+}
+
+@InProceedings{Hamidinekoo21,
+  title =	 {Automated Quantification Of Blood Microvessels In
+                  Hematoxylin And Eosin Whole Slide Images},
+  author =	 {Hamidinekoo, Azam and Kelsey, Anna and Trahearn,
+                  Nicholas and Selfe, Joanna and Shipley, Janet and
+                  Yuan, Yinyin},
+  pages =	 {94-104},
+  abstract =	 {Tumour cells require resources to survive and
+                  proliferate. In order to be provided with a
+                  supportive micro-environment rich with resources to
+                  sustain optimal growth, tumour cells tend to reside
+                  in close proximity to a network of blood
+                  vessels. Quantification of blood microvessel density
+                  can be a useful measure to investigate the
+                  importance of resource limitation in tumours for
+                  prognostication and assigning treatment and mode of
+                  drug delivery. Currently, immunohistochemistry (IHC)
+                  with specific antibodies and the subsequent
+                  detection of its binding in the tumour tissue are
+                  used to identify microvessels. The automated
+                  quantification of blood microvessels in Hematoxylin
+                  and Eosin (H\&E) stained images is not widely
+                  studied because microvessels are very complex and
+                  heterogeneous.  In addition, their manual
+                  identification is tedious, time-consuming and
+                  subjective.  We investigate whether the vasculature
+                  in H\&E can be robustly identified in whole slide
+                  sections that would ultimately avoid the need for
+                  IHC and manual annotations.  We propose an
+                  artificial intelligence model based on Generative
+                  Adversarial Networks (GAN) that, from an input H\&E
+                  image, can generate a synthetic Erythroblast
+                  Transformation specific related gene (ERG) stained
+                  image, highlighting vessel structures. We also
+                  trained a spatially constrained Convolutional Neural
+                  Network (CNN) to identify single cells on ERG
+                  stained whole slide images, and found good
+                  concordance between detected cells in synthetic and
+                  real ERG. This pipeline was evaluated on 2002 image
+                  patches of size 2000x2000 pixels, sampled from 9
+                  whole slide images.  We achieved the mean $R^2$ of
+                  0.70$\pm$0.14 in our testing set.  This pipeline can
+                  pave the way to study proximity of tumour cells to
+                  blood vessels.  This approach has the potential to
+                  reduce the use of IHC and tissues and enable large
+                  quantitative studies.}
+}
+
+@InProceedings{hoehne21,
+  title =	 {Detecting genetic alterations in BRAF and NTRK as
+                  oncogenic drivers in digital pathology images:
+                  towards model generalization within and across
+                  multiple thyroid cohorts},
+  author =	 {Johannes H\"ohne and Jacob de Zoete and Arndt
+                  A.~Schmitz and Tricia Bal and Emmanuelle di Tomaso
+                  and Matthias Lenga},
+  pages =	 {105-116},
+  abstract =	 {In this paper, we describe the machine learning
+                  problem of identifying different types of tumors
+                  based on digital pathology images. Given a set of
+                  Hematoxylin and Eosin (H\&E) stained images of
+                  thyroid tumors, we train deep learning models to
+                  detect two known molecular oncogenic drivers:
+                  \textit{BRAF} mutations and \textit{NTRK} gene
+                  fusions. We implement an attention-based multiple
+                  instance learning (MIL) classifier and we assess its
+                  generalization within and across three independent
+                  cohorts. We find that the model can detect both
+                  oncogenic drivers with the MIL approach, however the
+                  problem remains challenging: our exhaustive
+                  evaluation scenarios exemplify unknown data drifts
+                  and batch effects in digital pathology as the model
+                  performance decreases when processing images from an
+                  unseen cohort. These findings highlight the
+                  necessity of rich and diverse datasets for training
+                  and evaluation as well as methods for
+                  domain-agnostic learning.}
+}
+
+@InProceedings{jaume21,
+  title =	 {HistoCartography: A Toolkit for Graph Analytics in
+                  Digital Pathology},
+  author =	 {Jaume, Guillaume and Pati, Pushpak and Anklin,
+                  Valentin and Foncubierta, Antonio and Gabrani,
+                  Maria},
+  pages =	 {117-128},
+  abstract =	 {Advances in entity-graph analysis of histopathology
+                  images have brought in a new paradigm to describe
+                  tissue composition, and learn the tissue
+                  structure-to-function relationship.  Entity-graphs
+                  offer flexible and scalable representations to
+                  characterize tissue organization, while allowing the
+                  incorporation of prior pathological knowledge to
+                  further support model explainability.  However,
+                  their analysis requires prerequisites for
+                  image-to-graph translation and knowledge of
+                  state-of-the-art algorithms applied to
+                  graph-structured data, which can potentially hinder
+                  their adoption.  In this work, we aim to alleviate
+                  these issues by developing HistoCartography, a
+                  standardized python API with necessary
+                  preprocessing, machine learning and explainability
+                  tools to facilitate graph-analytics in computational
+                  pathology. Further, we have benchmarked the
+                  computational time and performance on multiple
+                  datasets across different imaging types and
+                  histopathology tasks to highlight the applicability
+                  of the API for building computational pathology
+                  workflows. HistoCartography is available at
+                  https://github.com/histocartography/histocartography.},
+  software =
+                  {https://github.com/histocartography/histocartography}
+}
+
+@InProceedings{lerousseau21,
+  title =	 {SparseConvMIL: Sparse Convolutional Context-Aware
+                  Multiple Instance Learning for Whole Slide Image
+                  Classification},
+  author =	 {Lerousseau, Marvin and Vakalopoulou, Maria and
+                  Deutsch, Eric and Paragios, Nikos},
+  pages =	 {129-139},
+  abstract =	 {Multiple instance learning (MIL) is the preferred
+                  approach for whole slide image
+                  classification. However, most MIL approaches do not
+                  exploit the interdependencies of tiles extracted
+                  from a whole slide image, which could provide
+                  valuable cues for classification. This paper
+                  presents a novel MIL approach that exploits the
+                  spatial relationship of tiles for classifying whole
+                  slide images. To do so, a sparse map is built from
+                  tiles embeddings, and is then classified by a
+                  sparse-input CNN. It obtained state-of-the-art
+                  performance over popular MIL approaches on the
+                  classification of cancer subtype involving 10,000
+                  whole slide images. Our results suggest that the
+                  proposed approach might (i) improve the
+                  representation learning of instances and (ii)
+                  exploit the context of instance embeddings to
+                  enhance the classification performance. The code of
+                  this work is made open-source.},
+  software =	 {https://github.com/MarvinLer/SparseConvMIL}
+}
+
+@InProceedings{leroy21,
+  title =	 {Magnetic Resonance Imaging Virtual Histopathology
+                  from Weakly Paired Data},
+  author =	 {Leroy, Amaury and Shreshtha, Kumar and Lerousseau,
+                  Marvin and Henry, Th\'eophraste and Estienne, Th\'eo and
+                  Classe, Marion and Paragios, Nikos and Gr\'egoire,
+                  Vincent and Deutsch, Eric},
+  pages =	 {140-150},
+  abstract =	 {The pathological analysis of biopsy specimens is
+                  essential to cancer diagnosis, treatment selection
+                  and prognosis. However, biopsies are only taken from
+                  part of the tumor and cannot assess the full
+                  cellular extension. Such information is essential to
+                  delineate as accurately as possible the tumor volume
+                  on a three-dimensional basis. Furthermore, they
+                  require highly qualified personnel and are
+                  associated with significant risks. The aim of our
+                  work is to provide alternative means to gather
+                  clinical information related to histology through MR
+                  image translation towards virtual pathological
+                  content generation. Conventional approaches to
+                  address this objective exploit paired data that is
+                  cumbersome to achieve due to tissue collapse and
+                  deformation, different resolution scales and absence
+                  of plane correspondences. In this paper, we
+                  introduce a versatile, scalable and robust
+                  closed-loop dual synthesis concept that composes two
+                  generation mechanisms - cycle-consistent generative
+                  adversarial networks -, one exploring weakly paired
+                  data and a subsequent harnessing virtually generated
+                  paired correspondences. The clinical relevance and
+                  interest of our framework are demonstrated in
+                  prostate cancer patients. Qualitative clinical
+                  assessment and quantitative reconstruction
+                  measurements demonstrate the potential of our
+                  approach.}
+}
+
+@InProceedings{li21,
+  title =	 {Unsupervised Domain Adaptation for the
+                  Histopathological Cell Segmentation through
+                  Self-Ensembling},
+  author =	 {Li, Chaoqun and Zhou, Yitian and Shi, Tangqi and Wu,
+                  Yenan and Yang, Meng and Li, Zhongyu},
+  pages =	 {151-158},
+  abstract =	 {Histopathological images are generally considered as
+                  the golden standard for clinical diagnosis and
+                  cancer grading. Accurate segmentation of
+                  cells/nuclei from histopathological images is a
+                  critical step to obtain reliable morphological
+                  information for quantitative analysis. However,
+                  cell/nuclei segmentation relies heavily on
+                  well-annotated datasets, which are extremely
+                  labor-intensive, time-consuming, and expensive in
+                  practical applications. Meanwhile, one might want to
+                  fine-tune pretrained models on certain target
+                  datasets. But it is always difficult to collect
+                  enough target training images for proper
+                  fine-tuning. Therefore, there is a need for methods
+                  that can transfer learned information from one
+                  domain to another without additional target
+                  annotations. In this paper, we propose a novel
+                  framework for cell segmentation on the unlabeled
+                  images through the unsupervised domain adaptation
+                  with self-ensembling. It is achieved by applying
+                  generative adversarial networks (GANs) for the
+                  unsupervised domain adaptation of cell segmentation
+                  crossing different tissues. Images in the source and
+                  target domain can be differentiated through the
+                  learned discriminator. Meanwhile, we present a
+                  self-ensembling model to consider the source and the
+                  target domain together as a semi-supervised
+                  segmentation task to reduce the differences of
+                  outputs. Additionally, we introduce conditional
+                  random field (CRF) as post-processing to preserve
+                  the local consistency on the outputs. We validate
+                  our framework with unsupervised domain adaptation on
+                  three public cell segmentation datasets captured
+                  from different types of tissues, which achieved
+                  superior performance in comparison with
+                  state-of-the-art.}
+}
+
+@InProceedings{Lu21,
+  title =	 {SMILE: Sparse-Attention based Multiple Instance
+                  Contrastive Learning for Glioma Sub-Type
+                  Classification Using Pathological Images},
+  author =	 {Mengkang Lu and Yongsheng Pan and Dong Nie and
+                  Feihong Liu and Feng Shi and Yong Xia and Dinggang
+                  Shen},
+  pages =	 {159-169},
+  abstract =	 {Gliomas are the most prevalent malignant brain tumor
+                  in adults and can be classified into four typical
+                  sub-types based on histological features.
+                  Histological diagnosis by pathologists via
+                  microscopic visual inspection of pathological slides
+                  has been the gold standard for glioma grading,
+                  especially hematoxylin and eosin (H\&E) sections.
+                  However, due to spatial heterogeneity and complex
+                  tumor micro-environment, it is difficult and
+                  time-consuming for pathologists to differentiate
+                  glioma sub-types. In this paper, we propose a
+                  Sparse-attention based Multiple Instance contrastive
+                  LEarning (SMILE) method for glioma sub-type
+                  classification.  First, we use contrastive learning
+                  to extract meaningful representations from
+                  pathological images.  Second, we propose the
+                  sparse-attention multiple instance learning
+                  aggregator to get sparse instance representations in
+                  a bag for label prediction.  We validate the
+                  proposed SMILE method using a glioma dataset from
+                  The Cancer Genome Atlas (TCGA).  Experimental
+                  results show superior performance of our method over
+                  competing ones.  Ablation study further demonstrates
+                  the effectiveness of our design of SMILE.}
+}
+
+@InProceedings{marini21,
+  title =	 {Multi-Scale Task Multiple Instance Learning for the
+                  Classification of Digital Pathology Images with
+                  Global Annotations},
+  author =	 {Marini, Niccol{\`o} and Ot{\'a}lora, Sebastian and
+                  Ciompi, Francesco and Silvello, Gianmaria and
+                  Marchesin, Stefano and Vatrano, Simona and
+                  Buttafuoco, Genziana and Atzori, Manfredo and
+                  M{\"u}ller, Henning},
+  pages =	 {170-181},
+  abstract =	 {Whole slide images (WSIs) are high-resolution
+                  digitized images of tissue samples, stored including
+                  different magnification levels.  WSIs datasets often
+                  include only global annotations, available thanks to
+                  pathology reports.  Global annotations refer to
+                  global findings in the high-resolution image and do
+                  not include information about the location of the
+                  regions of interest or the magnification levels used
+                  to identify a finding.  This fact can limit the
+                  training of machine learning models, as WSIs are
+                  usually very large and each magnification level
+                  includes different information about the tissue.
+                  This paper presents a Multi-Scale Task Multiple
+                  Instance Learning (MuSTMIL) method, allowing to
+                  better exploit data paired with global labels and to
+                  combine contextual and detailed information
+                  identified at several magnification levels.  The
+                  method is based on a multiple instance learning
+                  framework and on a multi-task network, that combines
+                  features from several magnification levels and
+                  produces multiple predictions (a global one and one
+                  for each magnification level involved).  MuSTMIL is
+                  evaluated on colon cancer images, on binary and
+                  multilabel classification.  MuSTMIL shows an
+                  improvement in performance in comparison to both
+                  single scale and another multi-scale multiple
+                  instance learning algorithm, demonstrating that
+                  MuSTMIL can help to better deal with global labels
+                  targeting full and multi-scale images.}
+}
+
+@inproceedings{marzahl21,
+  title =	 {Robust Quad-Tree based Registration on Whole Slide
+                  Images},
+  author =	 {Marzahl, Christian and Wilm, Frauke and Dressler
+                  Franz F. and Tharun, Lars and Perner, Sven and
+                  Bertram, Christof A. and Kr{\"o}ger, Christine and
+                  Voigt, J{\"o}rn and Klopfleisch, Robert and Maier,
+                  Andreas and Aubreville, Marc and Breininger,
+                  Katharina},
+  pages =	 {181-190},
+  abstract =	 {The registration of whole slide images (WSIs)
+                  provides the basis for many subsequent processing
+                  steps in digital pathology. For instance, the
+                  registration of immunohistochemistry (IHC) and
+                  hematoxylin & eosin (H&E)-stained WSIs is usually
+                  the first step in guiding IHC diagnostic
+                  procedures. Still, many registration methods operate
+                  poorly on WSIs. Reasons for this include the WSI
+                  size, fluctuating image quality or elastic tissue
+                  deformations. Multiple prior methods are further
+                  specialised towards a specific image modality, such
+                  as histology or cytology, or rely on a specific
+                  preparation protocol. To minimise these effects, we
+                  developed a robust WSI registration, which differs
+                  from previous methods by the following new aspect:
+                  We introduce a multi-scale approach based on a
+                  quad-tree (QT), with several termination criteria
+                  that makes the algorithm particularly insensitive to
+                  tissue artefacts and that further allows to estimate
+                  a piece-wise affine transformation. We validated our
+                  method on five scanner systems and 60 WSIs with
+                  different stainings. Our results outperformed any
+                  publicly available WSI registration method. The QT
+                  code, WSI landmarks and tools used to create the
+                  validation dataset are made publicly available. },
+  software =	 {https://github.com/ChristianMarzahl/WsiRegistration}
+}
+
+@InProceedings{saillard21,
+  title =	 {Self-supervised learning improves dMMR/MSI detection
+                  from histology slides across multiple cancers},
+  author =	 {Saillard, Charlie and Dehaene, Olivier and Marchand,
+                  Tanguy and Moindrot, Olivier and Kamoun, Aur\'elie and
+                  Schmauch, Benoit and Jegou, Simon},
+  pages =	 {191-205},
+  abstract =	 {Microsatellite instability (MSI) is a tumor
+                  phenotype whose diagnosis largely impacts patient
+                  care in colorectal cancers (CRC), and is associated
+                  with response to immunotherapy in all solid
+                  tumors. Deep learning models detecting MSI tumors
+                  directly from H\&E stained slides have shown promise
+                  in improving diagnosis of MSI patients. Prior deep
+                  learning models for MSI detection have relied on
+                  neural networks pretrained on ImageNet dataset,
+                  which does not contain any medical image. In this
+                  study, we leverage recent advances in
+                  self-supervised learning by training neural networks
+                  on histology images from the TCGA dataset using MoCo
+                  V2. We show that these networks consistently
+                  outperform their counterparts pretrained using
+                  ImageNet and obtain state-of-the-art results for MSI
+                  detection with AUCs of 0.92 and 0.83 for CRC and
+                  gastric tumors, respectively. These models
+                  generalize well on an external CRC cohort (0.97 AUC
+                  on PAIP) and improve transfer from one organ to
+                  another. Finally we show that predictive image
+                  regions exhibit meaningful histological patterns,
+                  and that the use of MoCo features highlighted more
+                  relevant patterns according to an expert
+                  pathologist.}
+}
+
+@InProceedings{torbennielsen21,
+  title =	 {Creating small but meaningful representations of
+                  digital pathology images},
+  author =	 {Guer\'endel, Corentin and Arnold, Phil and
+                  Torben-Nielsen, Ben},
+  pages =	 {206-215},
+  abstract =	 {Representation learning is a popular application of
+                  deep learning where an object (e.g., an image) is
+                  converted into a lower-dimensional representation
+                  that still encodes relevant features of the original
+                  object. In digital pathology, however, this is more
+                  difficult because whole slide images (WSIs) are
+                  tiled before processing because they are too large
+                  to process at once. As a result, one WSI can be
+                  represented by thousands of representations - one
+                  for each tile. Common strategies to aggregate the
+                  "tile-level representations" to a "slide-level
+                  representation" rely on pooling operators or even
+                  attention networks, which all find some weighted
+                  average of the tile-level representations.  In this
+                  work, we propose a novel approach to aggregate
+                  tile-level representations into a single slide-level
+                  representation. Our method is based on clustering
+                  representations from individual tiles that originate
+                  from a large pool of WSIs. Each cluster can be seen
+                  as encoding a specific feature that might occur in a
+                  tile. Then, the final slide-level representation is
+                  a function of the proportional cluster membership of
+                  all tiles from one WSI. We demonstrate that we can
+                  represent WSIs in parsimonious representations and
+                  that these aggregated slide-level representations
+                  allow for both WSI classification and, reversely,
+                  similar image search. }
+}
+
+@InProceedings{tourniaire21,
+  title =	 {Attention-based Multiple Instance Learning with
+                  Mixed Supervision on the Camelyon16 Dataset},
+  author =	 {Tourniaire, Paul and Ilie, Marius and Hofman, Paul
+                  and Ayache, Nicholas, and Delingette, Herve},
+  pages =	 {216-226},
+  abstract =	 {Since the standardization of Whole Slide Images
+                  (WSIs) digitization, the use of deep learning
+                  methods for the analysis of histological images has
+                  shown much potential. However, the sheer size of
+                  WSIs is a real challenge, as they are often up to
+                  100,000 pixels wide and high at the highest
+                  resolution, and therefore cannot be processed
+                  directly by any model. Moreover, as the manual
+                  delineation of structures within WSIs is tedious,
+                  histological datasets often only contain slide-level
+                  labels, or a limited amount of delineated slides. In
+                  this context, multiple-instance learning (MIL)
+                  approaches have been proposed, considering WSIs as
+                  bags of smaller images, designated as tiles or
+                  patches. Among these methods, the attention-based
+                  MIL aims at learning the importance of each tile for
+                  the slide final classification while at the same
+                  time performing a clustering of those tiles. In this
+                  paper, we introduce the concept of mixed supervision
+                  within this framework, by exploiting tile-level
+                  labels in addition to slide-level labels to improve
+                  the classification of slides. More precisely, we
+                  show on the Camelyon16 dataset that even a small
+                  proportion of slides with pixel-wise annotations can
+                  improve their classification but also the
+                  localization of tumorous regions. This improves the
+                  consistency of the results between the tile and
+                  slide levels and the interpretability of the
+                  algorithm.}
+}
+
+@InProceedings{xing21,
+  title =	 {A Multi-scale Graph Network with Multi-head
+                  Attention for Histopathology Image Diagnosisn},
+  author =	 {Xing, Xiaodan and Ma, Yixin and Jin, Lei and Sun,
+                  Tianyang and Xue, Zhong and Shi, Feng and Wu,
+                  Jinsong and Shen, Dinggang},
+  pages =	 {227-235},
+  abstract =	 { Hematoxylin-eosin (H\&E) staining plays an
+                  essential role in brain glioma diagnosis, but
+                  reading pathologic images and generating diagnostic
+                  reports can be a tedious and laborious
+                  work. Pathologists need to combine and navigate
+                  extremely large images with different scales and to
+                  quantify different aspects for subtyping. In this
+                  work, we propose an automatic diagnosis algorithm to
+                  identify cell types and severity of H\&E slides, in
+                  order to classify five major subtypes of glioma from
+                  whole slide pathological images. The proposed method
+                  is featured by a pyramid graph structure and an
+                  attention-based multi-instance learning strategy. We
+                  claim that our method not only improve the
+                  classification accuracy by utilizing multi-scale
+                  information, but also help to identify high risk
+                  patches. We summarized patches from multiple
+                  resolutions into a graph structure. The nodes of the
+                  pyramid graph are feature vectors extracted from
+                  image patches, and these vectors are connected by
+                  their spatial adjacency. We then fed the graph into
+                  the proposed model with self-attention and graph
+                  convolutions. Here, we used a multi-head
+                  self-attention architecture, where same
+                  self-attention blocks are stacked in parallel. As
+                  proven in Transformer networks, multiple attention
+                  maps herein capture comprehensive activation
+                  patterns from different subspace
+                  representation. Using the proposed method, the
+                  results show a 70\% accuracy for glioma
+                  subtyping. The multiresolution attention maps
+                  generated from the proposed method could help locate
+                  proliferations and necrosis in the whole pathologic
+                  slide.}
+}
+
+@InProceedings{Xu21,
+  title =	 {An Automatic Nuclei Image Segmentation Based on
+                  Multi-Scale Split-Attention U-Net},
+  author =	 {Xu, Qing and Duan, Wenting},
+  pages =	 {236-245},
+  abstract =	 {Nuclei segmentation is an important step in the task
+                  of medical image analysis. Nowadays, deep learning
+                  techniques based on Convolutional Neural Networks
+                  (CNNs) have become prevalent methods in nuclei
+                  segmentation. In this paper, we propose a network
+                  called Multi-scale Split-Attention U-Net (MSAU-Net)
+                  for further improving the performance of cell
+                  segmentation. MSAU-Net is based on U-Net
+                  architecture and the original blocks used to
+                  down-sampling and up-sampling paths are replaced
+                  with Multi-scale Split-Attention blocks for
+                  capturing independent semantic information of nuclei
+                  images. A public microscopy image dataset from 2018
+                  Data Science Bowl grand challenge is selected to
+                  train and evaluate MSAU-Net. By running trained
+                  models on the test set, our model reaches average
+                  Intersection over Union (IoU) of 0.851, which is
+                  better than other prominent models, especially 4.8
+                  percent higher than the original U-Net. For other
+                  evaluation metrics including accuracy, precision,
+                  recall and F1-score, MSAU-Net shows better
+                  performance in the most of indicators. The
+                  outstanding result reveals that our proposed model
+                  presents a promising nuclei segmentation method for
+                  the microscopy image analysis.}
+}
+
+@InProceedings{zhang21,
+  title =	 {Symmetric Dense Inception Network for Simultaneous
+                  Cell Detection and Classification in Multiplex
+                  Immunohistochemistry Images},
+  author =	 {Zhang, Hanyun and Grunewald, Tami and Akarca, Ayse
+                  U. and Ledermann, Jonathan A. and Marafioti, Teresa
+                  and Yuan, Yinyin},
+  pages =	 {246-257},
+  abstract =	 {Deep-learning based automatic analysis of the
+                  multiplex immunohistochemistry (mIHC) enables
+                  distinct cell populations to be localized on a large
+                  scale, providing insights into disease biology and
+                  therapeutic targets. However, standard deep-learning
+                  pipelines performed cell detection and
+                  classification as two-stage tasks, which is
+                  computationally inefficient and faces challenges to
+                  incorporate neighbouring tissue context for
+                  determining the cell identity. To overcome these
+                  limitations and to obtain a more accurate mapping of
+                  cell phenotypes, we presented a symmetric dense
+                  inception neural network for detecting and
+                  classifying cells in mIHC slides simultaneously. The
+                  model was applied with a novel stop-gradient
+                  strategy and a loss function accounted for class
+                  imbalance. When evaluated on an ovarian cancer
+                  dataset containing 6 cell types, the model achieved
+                  an F1 score of 0.835 in cell detection, and a
+                  weighted F1-score of 0.867 in cell classification,
+                  which outperformed separate models trained on
+                  individual tasks by 1.9\% and 3.8\%
+                  respectively. Taken together, the proposed method
+                  boosts the learning efficiency and prediction
+                  accuracy of cell detection and classification by
+                  simultaneously learning from both tasks.}
+}

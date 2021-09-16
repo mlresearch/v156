@@ -1,0 +1,99 @@
+---
+booktitle: "Proceedings of the MICCAI Workshop on Computational\r Pathology"
+shortname: COMPAY 2021
+year: '2021'
+volume: '156'
+start: 2021-09-27
+end: 2021-09-27
+published: 2021-09-16
+conference_number: '3'
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: COMPAY-2021
+month: 0
+cycles: false
+bibtex_editor: Atzori, Manfredo and Burlutskiy, Nikolay and Ciompi, Francesco and
+  Li, Zhang and Minhas, Fayyaz and M\"uller, Henning and Peng, Tingying and Rajpoot,
+  Nasir and Torben-Nielsen, Ben and van der Laak, Jeroen and Veta, Mitko and Yuan,
+  Yinyin and Zlobec, Inti
+editor:
+- given: Manfredo
+  family: Atzori
+- given: Nikolay
+  family: Burlutskiy
+- given: Francesco
+  family: Ciompi
+- given: Zhang
+  family: Li
+- given: Fayyaz
+  family: Minhas
+- given: Henning
+  family: Müller
+- given: Tingying
+  family: Peng
+- given: Nasir
+  family: Rajpoot
+- given: Ben
+  family: Torben-Nielsen
+- given: Jeroen
+  family: Laak
+  prefix: van der
+- given: Mitko
+  family: Veta
+- given: Yinyin
+  family: Yuan
+- given: Inti
+  family: Zlobec
+title: Proceedings of Machine Learning Research
+description: "Proceedings of the MICCAI Workshop on Computational\r Pathology\n  Held
+  in Virtual on 27 September 2021\n\nPublished as Volume 156 by the Proceedings of
+  Machine Learning Research on 16 September 2021.\n\nVolume Edited by:\n  Manfredo
+  Atzori\n  Nikolay Burlutskiy\n  Francesco Ciompi\n  Zhang Li\n  Fayyaz Minhas\n
+  \ Henning Müller\n  Tingying Peng\n  Nasir Rajpoot\n  Ben Torben-Nielsen\n  Jeroen
+  van der Laak\n  Mitko Veta\n  Yinyin Yuan\n  Inti Zlobec\n\nSeries Editors:\n  Neil
+  D. Lawrence\n  * Mark Reid\n"
+date_str: 27 Sep
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v156"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v156
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v156
+email: ''
+conference:
+  name: MICCAI Workshop on Computational Pathology
+  url: http://compaysymposium.eu/
+  location: Virtual
+  dates:
+  - 2021-09-27
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v156/compay21.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v156/compay21.bib
