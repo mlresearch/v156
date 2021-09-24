@@ -1,18 +1,17 @@
 ---
-title: "SparseConvMIL: Sparse Convolutional Context-Aware\r Multiple Instance Learning
-  for Whole Slide Image\r Classification"
-abstract: "Multiple instance learning (MIL) is the preferred\r approach for whole
-  slide image\r classification. However, most MIL approaches do not\r exploit the
-  interdependencies of tiles extracted\r from a whole slide image, which could provide\r
-  valuable cues for classification. This paper\r presents a novel MIL approach that
-  exploits the\r spatial relationship of tiles for classifying whole\r slide images.
-  To do so, a sparse map is built from\r tiles embeddings, and is then classified
-  by a\r sparse-input CNN. It obtained state-of-the-art\r performance over popular
-  MIL approaches on the\r classification of cancer subtype involving 10,000\r whole
-  slide images. Our results suggest that the\r proposed approach might (i) improve
-  the\r representation learning of instances and (ii)\r exploit the context of instance
-  embeddings to\r enhance the classification performance. The code of\r this work
-  is made open-source."
+title: 'SparseConvMIL: Sparse Convolutional Context-Aware Multiple Instance Learning
+  for Whole Slide Image Classification'
+abstract: Multiple instance learning (MIL) is the preferred approach for whole slide
+  image classification. However, most MIL approaches do not exploit the interdependencies
+  of tiles extracted from a whole slide image, which could provide valuable cues for
+  classification. This paper presents a novel MIL approach that exploits the spatial
+  relationship of tiles for classifying whole slide images. To do so, a sparse map
+  is built from tiles embeddings, and is then classified by a sparse-input CNN. It
+  obtained state-of-the-art performance over popular MIL approaches on the classification
+  of cancer subtype involving 10,000 whole slide images. Our results suggest that
+  the proposed approach might (i) improve the representation learning of instances
+  and (ii) exploit the context of instance embeddings to enhance the classification
+  performance. The code of this work is made open-source.
 software: https://github.com/MarvinLer/SparseConvMIL
 layout: inproceedings
 series: Proceedings of Machine Learning Research
@@ -20,8 +19,8 @@ publisher: PMLR
 issn: 2640-3498
 id: lerousseau21a
 month: 0
-tex_title: "SparseConvMIL: Sparse Convolutional Context-Aware\r Multiple Instance
-  Learning for Whole Slide Image\r Classification"
+tex_title: 'SparseConvMIL: Sparse Convolutional Context-Aware Multiple Instance Learning
+  for Whole Slide Image Classification'
 firstpage: 129
 lastpage: 139
 page: 129-139
@@ -40,7 +39,7 @@ author:
   family: Paragios
 date: 2021-09-16
 address:
-container-title: "Proceedings of the MICCAI Workshop on Computational\r Pathology"
+container-title: Proceedings of the MICCAI Workshop on Computational Pathology
 volume: '156'
 genre: inproceedings
 issued:

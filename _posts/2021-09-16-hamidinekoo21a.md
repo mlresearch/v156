@@ -1,38 +1,37 @@
 ---
-title: "Automated Quantification Of Blood Microvessels In\r Hematoxylin And Eosin
-  Whole Slide Images"
-abstract: "Tumour cells require resources to survive and\r proliferate. In order to
-  be provided with a\r supportive micro-environment rich with resources to\r sustain
-  optimal growth, tumour cells tend to reside\r in close proximity to a network of
-  blood\r vessels. Quantification of blood microvessel density\r can be a useful measure
-  to investigate the\r importance of resource limitation in tumours for\r prognostication
-  and assigning treatment and mode of\r drug delivery. Currently, immunohistochemistry
-  (IHC)\r with specific antibodies and the subsequent\r detection of its binding in
-  the tumour tissue are\r used to identify microvessels. The automated\r quantification
-  of blood microvessels in Hematoxylin\r and Eosin (H&E) stained images is not widely\r
-  studied because microvessels are very complex and\r heterogeneous.  In addition,
-  their manual\r identification is tedious, time-consuming and\r subjective.  We investigate
-  whether the vasculature\r in H&E can be robustly identified in whole slide\r sections
-  that would ultimately avoid the need for\r IHC and manual annotations.  We propose
-  an\r artificial intelligence model based on Generative\r Adversarial Networks (GAN)
-  that, from an input H&E\r image, can generate a synthetic Erythroblast\r Transformation
-  specific related gene (ERG) stained\r image, highlighting vessel structures. We
-  also\r trained a spatially constrained Convolutional Neural\r Network (CNN) to identify
-  single cells on ERG\r stained whole slide images, and found good\r concordance between
-  detected cells in synthetic and\r real ERG. This pipeline was evaluated on 2002
-  image\r patches of size 2000x2000 pixels, sampled from 9\r whole slide images.  We
-  achieved the mean $R^2$ of\r 0.70$\\pm$0.14 in our testing set.  This pipeline can\r
-  pave the way to study proximity of tumour cells to\r blood vessels.  This approach
-  has the potential to\r reduce the use of IHC and tissues and enable large\r quantitative
-  studies."
+title: Automated Quantification Of Blood Microvessels In Hematoxylin And Eosin Whole
+  Slide Images
+abstract: Tumour cells require resources to survive and proliferate. In order to be
+  provided with a supportive micro-environment rich with resources to sustain optimal
+  growth, tumour cells tend to reside in close proximity to a network of blood vessels.
+  Quantification of blood microvessel density can be a useful measure to investigate
+  the importance of resource limitation in tumours for prognostication and assigning
+  treatment and mode of drug delivery. Currently, immunohistochemistry (IHC) with
+  specific antibodies and the subsequent detection of its binding in the tumour tissue
+  are used to identify microvessels. The automated quantification of blood microvessels
+  in Hematoxylin and Eosin (H&E) stained images is not widely studied because microvessels
+  are very complex and heterogeneous.  In addition, their manual identification is
+  tedious, time-consuming and subjective.  We investigate whether the vasculature
+  in H&E can be robustly identified in whole slide sections that would ultimately
+  avoid the need for IHC and manual annotations.  We propose an artificial intelligence
+  model based on Generative Adversarial Networks (GAN) that, from an input H&E image,
+  can generate a synthetic Erythroblast Transformation specific related gene (ERG)
+  stained image, highlighting vessel structures. We also trained a spatially constrained
+  Convolutional Neural Network (CNN) to identify single cells on ERG stained whole
+  slide images, and found good concordance between detected cells in synthetic and
+  real ERG. This pipeline was evaluated on 2002 image patches of size 2000x2000 pixels,
+  sampled from 9 whole slide images.  We achieved the mean $R^2$ of 0.70$\pm$0.14
+  in our testing set.  This pipeline can pave the way to study proximity of tumour
+  cells to blood vessels.  This approach has the potential to reduce the use of IHC
+  and tissues and enable large quantitative studies.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR
 issn: 2640-3498
 id: hamidinekoo21a
 month: 0
-tex_title: "Automated Quantification Of Blood Microvessels In\r Hematoxylin And Eosin
-  Whole Slide Images"
+tex_title: Automated Quantification Of Blood Microvessels In Hematoxylin And Eosin
+  Whole Slide Images
 firstpage: 94
 lastpage: 104
 page: 94-104
@@ -55,7 +54,7 @@ author:
   family: Yuan
 date: 2021-09-16
 address:
-container-title: "Proceedings of the MICCAI Workshop on Computational\r Pathology"
+container-title: Proceedings of the MICCAI Workshop on Computational Pathology
 volume: '156'
 genre: inproceedings
 issued:

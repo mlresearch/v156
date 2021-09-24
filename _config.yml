@@ -1,5 +1,5 @@
 ---
-booktitle: "Proceedings of the MICCAI Workshop on Computational\r Pathology"
+booktitle: Proceedings of the MICCAI Workshop on Computational Pathology
 shortname: COMPAY 2021
 year: '2021'
 volume: '156'
@@ -47,13 +47,30 @@ editor:
 - given: Inti
   family: Zlobec
 title: Proceedings of Machine Learning Research
-description: "Proceedings of the MICCAI Workshop on Computational\r Pathology\n  Held
-  in Virtual on 27 September 2021\n\nPublished as Volume 156 by the Proceedings of
-  Machine Learning Research on 16 September 2021.\n\nVolume Edited by:\n  Manfredo
-  Atzori\n  Nikolay Burlutskiy\n  Francesco Ciompi\n  Zhang Li\n  Fayyaz Minhas\n
-  \ Henning Müller\n  Tingying Peng\n  Nasir Rajpoot\n  Ben Torben-Nielsen\n  Jeroen
-  van der Laak\n  Mitko Veta\n  Yinyin Yuan\n  Inti Zlobec\n\nSeries Editors:\n  Neil
-  D. Lawrence\n  * Mark Reid\n"
+description: |
+  Proceedings of the MICCAI Workshop on Computational Pathology
+    Held in Virtual on 27 September 2021
+
+  Published as Volume 156 by the Proceedings of Machine Learning Research on 16 September 2021.
+
+  Volume Edited by:
+    Manfredo Atzori
+    Nikolay Burlutskiy
+    Francesco Ciompi
+    Zhang Li
+    Fayyaz Minhas
+    Henning Müller
+    Tingying Peng
+    Nasir Rajpoot
+    Ben Torben-Nielsen
+    Jeroen van der Laak
+    Mitko Veta
+    Yinyin Yuan
+    Inti Zlobec
+
+  Series Editors:
+    Neil D. Lawrence
+    * Mark Reid
 date_str: 27 Sep
 url: https://proceedings.mlr.press
 author:

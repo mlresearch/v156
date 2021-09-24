@@ -1,32 +1,31 @@
 ---
-title: "Attention-based Multiple Instance Learning with\r Mixed Supervision on the
-  Camelyon16 Dataset"
-abstract: "Since the standardization of Whole Slide Images\r (WSIs) digitization,
-  the use of deep learning\r methods for the analysis of histological images has\r
-  shown much potential. However, the sheer size of\r WSIs is a real challenge, as
-  they are often up to\r 100,000 pixels wide and high at the highest\r resolution,
-  and therefore cannot be processed\r directly by any model. Moreover, as the manual\r
-  delineation of structures within WSIs is tedious,\r histological datasets often
-  only contain slide-level\r labels, or a limited amount of delineated slides. In\r
-  this context, multiple-instance learning (MIL)\r approaches have been proposed,
-  considering WSIs as\r bags of smaller images, designated as tiles or\r patches.
-  Among these methods, the attention-based\r MIL aims at learning the importance of
-  each tile for\r the slide final classification while at the same\r time performing
-  a clustering of those tiles. In this\r paper, we introduce the concept of mixed
-  supervision\r within this framework, by exploiting tile-level\r labels in addition
-  to slide-level labels to improve\r the classification of slides. More precisely,
-  we\r show on the Camelyon16 dataset that even a small\r proportion of slides with
-  pixel-wise annotations can\r improve their classification but also the\r localization
-  of tumorous regions. This improves the\r consistency of the results between the
-  tile and\r slide levels and the interpretability of the\r algorithm."
+title: Attention-based Multiple Instance Learning with Mixed Supervision on the Camelyon16
+  Dataset
+abstract: Since the standardization of Whole Slide Images (WSIs) digitization, the
+  use of deep learning methods for the analysis of histological images has shown much
+  potential. However, the sheer size of WSIs is a real challenge, as they are often
+  up to 100,000 pixels wide and high at the highest resolution, and therefore cannot
+  be processed directly by any model. Moreover, as the manual delineation of structures
+  within WSIs is tedious, histological datasets often only contain slide-level labels,
+  or a limited amount of delineated slides. In this context, multiple-instance learning
+  (MIL) approaches have been proposed, considering WSIs as bags of smaller images,
+  designated as tiles or patches. Among these methods, the attention-based MIL aims
+  at learning the importance of each tile for the slide final classification while
+  at the same time performing a clustering of those tiles. In this paper, we introduce
+  the concept of mixed supervision within this framework, by exploiting tile-level
+  labels in addition to slide-level labels to improve the classification of slides.
+  More precisely, we show on the Camelyon16 dataset that even a small proportion of
+  slides with pixel-wise annotations can improve their classification but also the
+  localization of tumorous regions. This improves the consistency of the results between
+  the tile and slide levels and the interpretability of the algorithm.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR
 issn: 2640-3498
 id: tourniaire21a
 month: 0
-tex_title: "Attention-based Multiple Instance Learning with\r Mixed Supervision on
-  the Camelyon16 Dataset"
+tex_title: Attention-based Multiple Instance Learning with Mixed Supervision on the
+  Camelyon16 Dataset
 firstpage: 216
 lastpage: 226
 page: 216-226
@@ -47,7 +46,7 @@ author:
   family: Delingette
 date: 2021-09-16
 address:
-container-title: "Proceedings of the MICCAI Workshop on Computational\r Pathology"
+container-title: Proceedings of the MICCAI Workshop on Computational Pathology
 volume: '156'
 genre: inproceedings
 issued:

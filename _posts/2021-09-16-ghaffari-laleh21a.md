@@ -1,19 +1,19 @@
 ---
-title: "Deep Learning for interpretable end-to-end survival\r (E-ESurv) prediction
-  in gastrointestinal cancer\r histopathology"
+title: Deep Learning for interpretable end-to-end survival (E-ESurv) prediction in
+  gastrointestinal cancer histopathology
 software: https://github.com/KatherLab/Survival
-abstract: "This paper demonstrates and validates EE-Surv, a\r powerful yet algorithmically
-  simple method to\r predict survival directly from whole slide images\r which we
-  validate in colorectal and gastric cancer,\r two clinically relevant and markedly
-  different tumor\r types."
+abstract: This paper demonstrates and validates EE-Surv, a powerful yet algorithmically
+  simple method to predict survival directly from whole slide images which we validate
+  in colorectal and gastric cancer, two clinically relevant and markedly different
+  tumor types.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR
 issn: 2640-3498
 id: ghaffari-laleh21a
 month: 0
-tex_title: "Deep Learning for interpretable end-to-end survival\r (E-ESurv) prediction
-  in gastrointestinal cancer\r histopathology"
+tex_title: Deep Learning for interpretable end-to-end survival (E-ESurv) prediction
+  in gastrointestinal cancer histopathology
 firstpage: 81
 lastpage: 93
 page: 81-93
@@ -36,7 +36,7 @@ author:
   family: Kather
 date: 2021-09-16
 address:
-container-title: "Proceedings of the MICCAI Workshop on Computational\r Pathology"
+container-title: Proceedings of the MICCAI Workshop on Computational Pathology
 volume: '156'
 genre: inproceedings
 issued:
